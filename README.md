@@ -1,7 +1,13 @@
-# Covid19_data collection 
+<h1> Covid19 Data Collection </h1>
 
-This repository is to document data avaliable through TACC tweets collection. 
+The purpose of this repository is to document Covid19 related data collections hosted at TACC. 
 
-The data collcetion is orgnized for each day since Mar.25 2020. For each day, IDs of collected tweets are stored in tweet_id folder. Filename starting with "all" contains IDs of all tweets have been collected for that day. Filename starting with "noRT" contains IDs exclusing re-tweets. The n-grams folder includes top 1000 1,2,3-grams found for each day excluding re-tweets. 
+## Twitter Data Collection
+The data collcetion including data collected Mar.25 2020. Information about Tweets are summaized on daily basis including IDs, and top n-grams. A "day" is defined as a calendar day of US central time. 
+
+* **Tweets IDs** The IDs of collected tweets are archived in tweet_id folder. The IDs of all tweets collected on that day are stored in the file with "all" prefix. In addition, there is a seperate list of IDs without re-tweets stored in the file with "
+noRT" prefix.  
+
+* **n-grams** Top 1000 n-grams from each day are stored in the n-grams folder. The results exlcudes all re-tweets. Both English and Spanish stopword lists from NLTK packages are used to remove stop words. Here we included top 1000 1-grams, 2-grams and 3-grams.  
 
 This is an ongoing collection and we will keep adding new data and processed results. 
