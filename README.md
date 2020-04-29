@@ -16,5 +16,12 @@ The data collcetion including data collected Mar.25 2020. Information about Twee
 noRT" prefix.  
 
 * **n-grams** Top 1000 n-grams from each day are stored in the n-grams folder. The results exlcudes all re-tweets. Both English and Spanish stopword lists from NLTK packages are used to remove stop words. Here we included top 1000 1-grams, 2-grams and 3-grams.  
+<p align="center">
+    <img src="https://github.com/weijiax/covid19_data/blob/master/tweets/img/1-grams.gif" width="30%"/>
+    <img src="https://github.com/weijiax/covid19_data/blob/master/tweets/img/2-grams.gif" width="30%"/>
+    <img src="https://github.com/weijiax/covid19_data/blob/master/tweets/img/3-grams.gif" width="30%"/>
+    <br> <b>Top 20 1,2,3-grams from daily original tweets</b>
+</p>
+
 
 This is an ongoing collection and we will keep adding new data and processed results. 
